@@ -1,0 +1,13 @@
+{
+  "name": "mytoken",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "deploy": "npx hardhat run contracts/scripts/deploy.js --network sepolia"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-ts": "^0.37.0"
+  }
+}

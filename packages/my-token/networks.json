@@ -1,0 +1,8 @@
+{
+  "sepolia": {
+    "MyToken": {
+      "address": "xxxx",
+      "startBlock": xxxx
+    }
+  }
+}
